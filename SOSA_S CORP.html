@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda de Computadoras de Sosa</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  
+</head>
+<body>
+  <header>
+    <h1>Tienda de Computadoras de Sosa</h1>
+    <div id="carrito">
+      <span id="contadorCarrito">0</span> productos en el carrito
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#carrito">Carrito</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos a nuestra tienda</h2>
+    </section>
+
+    <section id="productos">
+      <h2>Nuestros Productos</h2>
+      <div class="producto">
+        <img src="computadora1.jpg" alt="Computadora 1">
+        <h3>Computadora 1</h3>
+        <p>Acer Nitro 17 Gaming Laptop | AMD Ryzen 7 7735HS Octa-Core CPU | NVIDIA GeForce RTX 4070 Laptop GPU | 17.3" QHD 165Hz IPS Display | 16GB DDR5 | 1TB Gen 4 SSD | Wi-Fi 6E | RGB Backlit KB | AN17-41-R7GT</p>
+        <p>Precio: $1,844</p>
+        <button onclick="agregarAlCarrito('Computadora 1', 1844)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="computadora2.jpg" alt="Computadora 2">
+        <h3>Computadora 2</h3>
+        <p>Cooler Master HAF 5 Pro High Performance Gaming PC - Intel i7 12700F - NVIDIA GeForce RTX 3060 Ti - 16GB DDR4 3200MHz - 1TB M.2 NVMe SSD – WiFi - Windows 11 - Desktop Computer.</p>
+        <p>Precio: $1,399</p>
+        <button onclick="agregarAlCarrito('Computadora 2', 1399)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="computadora3.jpg" alt="Computadora 3">
+        <h3>Computadora 3</h3>
+        <p>Lenovo IdeaPad Gaming 3 - (2022) - Essential Gaming Laptop Computer - 15.6" FHD - 120Hz - AMD Ryzen 5 6600H - NVIDIA GeForce RTX 3050 - 8GB DDR5 RAM - 256GB NVMe Storage - Windows 11 Home</p>
+        <p>Precio: $691</p>
+        <button onclick="agregarAlCarrito('Computadora 3', 691)">Agregar al carrito</button>
+      </div>
+
+
+    </section>
+
+    <section id="carrito">
+      <h2>Carrito de Compras</h2>
+      <div id="productosCarrito"></div>
+      <p id="totalCarrito">Total: $0</p>
+      <button onclick="realizarCompra()">Comprar</button>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes ponerte en contacto con nosotros a través de:</p>
+      <ul>
+        <li>Teléfono: 351 *** ****</li>
+        <li>Email: nsosa412@cesd.edu.ar</li>
+        <li>Dirección: Alvear 270</li>
+      </ul>
+    </section>
+
+    <section id="comentarios">
+      <h3>Comentarios</h3>
+      <textarea id="comentarioInput" placeholder="Escribe tu comentario"></textarea>
+      <button onclick="agregarComentario()">Agregar comentario</button>
+      <div id="contenedorComentarios"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; SOSA'S CORP. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

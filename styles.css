@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#contacto {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#contacto h2 {
+  color: #333;
+}
+
+#contacto p, #contacto li {
+  color: #666;
+}
+
+#comentarioInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#comentarios button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.comentario {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+ #carrito {
+  text-align: right;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+#productosCarrito {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.productoCarrito {
+  width: 200px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.productoCarrito h3 {
+  margin-top: 0;
+}
+
+#contacto {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#contacto h2 {
+  color: #333;
+}
+
+#contacto p,
+#contacto li {
+  color: #666;
+}
+
+#comentarioInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#comentarios button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.comentario {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
